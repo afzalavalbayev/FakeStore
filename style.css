@@ -99,11 +99,15 @@ ul{
     margin-top: 40px;
 }
 
-#cards{
+.a_card{
     flex-wrap: wrap;
     width: 1400px;
     margin: auto;
     padding-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
 }
 
 .card{
@@ -187,7 +191,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 2850px;
+    height: 2500px;
 }
 
 #loader{
