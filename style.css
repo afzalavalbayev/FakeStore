@@ -103,6 +103,7 @@ ul{
     flex-wrap: wrap;
     width: 1400px;
     margin: auto;
+    padding-top: 50px;
 }
 
 .card{
@@ -187,4 +188,9 @@ form{
     flex-direction: column;
     align-items: center;
     height: 2850px;
+}
+
+#loader{
+    margin-top: 60px;
+    color: green;
 }

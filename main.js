@@ -13,6 +13,14 @@ axios.get(url).then((res) => {
   }
 });
 
+window.onload = function() {
+    // Hide the loader
+    document.getElementById('loader').style.display = 'none';
+    
+    // Show the main content
+    document.querySelector(".products").style.display = 'block';
+};
+
 function showProductHome(data){
     data.forEach((item) => {
         cards.innerHTML += `<div class="card">
