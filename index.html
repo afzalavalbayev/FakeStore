@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>FakeStore</title>
 </head>
+
 <body>
 
     <div class="intro">
         <div class="container">
-        <nav class="nav">
-            <h1 class="logo">FakeStore</h1>
-            <ul>
-                <li><a href="#" class="link">Home</a></li>
-                <li><a href="./pages/products.html" class="link">Products</a></li>
-                <li><a href="#" class="link">About</a></li>
-            </ul>
-        </nav>
+            <nav class="nav">
+                <h1 class="logo">FakeStore</h1>
+                <ul>
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="./pages/products.html" class="link">Products</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                </ul>
+            </nav>
 
-        <div class="main">
-            <h1 class="main_title">Modern Fake Store</h1>
-            <p class="main_p">Best products with clean dark UI experience</p>
-            <a href="#" class="button"><button class="explore_btn">Explore Products</button></a>
+            <div class="main">
+                <h1 class="main_title">Modern Fake Store</h1>
+                <p class="main_p">Best products with clean dark UI experience</p>
+                <a href="#" class="button"><button class="explore_btn">Explore Products</button></a>
+            </div>
         </div>
-    </div>
     </div>
 
     <div class="products">
-    <div class="container">
-        <h2 class="products_title">Featured Products</h2>
+        <div class="container">
+            <h2 class="products_title">Featured Products</h2>
 
-    <div id="loader">
-        <h1>Loading...</h1>
-    </div>
+            <div id="loader">
+                <h1>Loading...</h1>
+            </div>
 
-        <div class="cards">
+            <div class="cards">
+            </div>
         </div>
-    </div>
     </div>
 
     <div class="footer">
-    <div class="container">
-        <p class="footer_text">&copy; 2025 FakeStore. Dark Modern UI</p>
+        <div class="container">
+            <p class="footer_text">&copy; 2025 FakeStore. Dark Modern UI</p>
+        </div>
     </div>
-    </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="node_modules/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
